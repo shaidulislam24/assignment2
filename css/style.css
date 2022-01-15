@@ -113,6 +113,13 @@ Welcome Sceen Style Start
 .welcome-sceen-right img{
     width: 440px;
     height: 414px;
+    transition: 1s ease-in-out;
+    
+}
+.welcome-sceen-right img:hover{
+    width: 440px;
+    height: 414px;
+    transform: scale(125%);
 }
 
 .welcome-sceen-left p{
@@ -284,6 +291,7 @@ Middle Popular Product  Collection Style Start
      box-shadow: 0px 5px 0px rgb(78 2 2);
      border-radius: 20px;
      background-color: rgb(240, 224, 224);
+     
  }
 .contact-title{
     text-align: center;
@@ -299,6 +307,7 @@ Middle Popular Product  Collection Style Start
  .contact-us{
      display: grid;
      grid-template-columns: repeat(2, 1fr); 
+     
      
  }
 
@@ -335,6 +344,7 @@ input[type=mail]{
 }
 
 .submit-button{
+    width: 100%;
     color: white;
     background-color: red;
     padding: 8px 20px;
@@ -364,6 +374,17 @@ input[type=mail]{
     color:white;
     display: flex;
     align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.849);
+    border-radius: 20px;
+    transition: 1s;
+    
+}
+.address:hover{
+    color:white;
+    display: flex;
+    align-items: center;
+    transform: scale(110%);
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.849);
     border-radius: 20px;
