@@ -16,6 +16,7 @@
  body{
     font-family: 'Poppins', sans-serif;
     color: #3A3A3A;
+    margin: 0;
  }
 
  .container{
@@ -252,6 +253,26 @@ Middle Popular Product  Collection Style Start
 .fa-star, .fa-star-half-alt{
     color: orange;
 }
+.see-more-button{
+    text-align: right;
+
+    margin-bottom: 50px;
+}
+.see-more-button a{
+    text-decoration: none;
+    color: red;
+    font-size: 25px;
+    text-align: right;
+    padding: 10px;
+    transition: 1s;
+}
+.see-more-button a:hover{
+    text-decoration: none;
+    color: green;
+    font-size: 25px;
+    text-align: right;
+    padding: 10px;
+}
 
 /*--------------------------
  Contact Section Style START
@@ -264,7 +285,17 @@ Middle Popular Product  Collection Style Start
      border-radius: 20px;
      background-color: rgb(240, 224, 224);
  }
-
+.contact-title{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    color: green;
+    border-bottom: 1.5px dotted red;
+    
+}
+.contact-title span{
+    color: orange;
+}
  .contact-us{
      display: grid;
      grid-template-columns: repeat(2, 1fr); 
@@ -461,6 +492,7 @@ input[type=mail]{
     .address{
         width: 100%;
         margin-top: 20px;
+        padding: 10px;
     }
 
  }
@@ -553,7 +585,8 @@ input[type=mail]{
 
    .address{
        width: 100%;
-       margin-top: 20px; 
+       margin-top: 20px;
+       padding: 10px;
    }
 }
 
@@ -645,7 +678,8 @@ input[type=mail]{
 
    .address{
        width: 100%;
-       margin-top: 20px; 
+       margin-top: 20px;
+       padding: 10px;
    }
 }
 
